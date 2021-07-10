@@ -2,9 +2,9 @@
   <div class="text-gray-900 text-sm">
     <!-- NAVBAR START -->
     <nav
-      class="bg-gray-900 text-white px-4 py-4 flex items-center justify-between"
+      class="bg-gray-900 text-white px-4 py-3 flex items-center justify-between"
     >
-      <div class="flex item-center space-x-4 px-5">
+      <div class="flex item-center space-x-4">
         <a href="" class="text-white hover:text-gray-400">
           <svg class="w-8 fill-current" viewBox="0 0 16 16" aria-hidden="true">
             <path
@@ -16,26 +16,18 @@
         <div class="relative">
           <input
             type="text"
-            class="
-              rounded
-              ring-1 ring-gray-600
-              bg-gray-800
-              text-sm
-              placeholder-gray-300
-              w-72
-              px-3
-              py-1
-            "
+            class="rounded bg-gray-700 text-sm placeholder-white w-72 px-3 py-1"
             placeholder="Search or Jump to..."
           />
-          <div class="absolute top-2 right-2 flex items-center">
+          <div class="absolute top-0 right-0 flex items-center h-full">
             <div
               class="
-                ring-1 ring-gray-500
+                border border-gray-600
                 rounded
-                text-xs text-gray-400
-                px-1
-                py-0
+                tex-xs
+                text-gray-400
+                px-2
+                mr-2
               "
             >
               /
@@ -44,9 +36,9 @@
         </div>
         <ul class="flex items-center font-semibold space-x-4">
           <li><a href="" class="hover:text-gray-400">Pull Request</a></li>
-          <li><a href="" class="hover:text-gray-400">Issues</a></li>
-          <li><a href="" class="hover:text-gray-400">Market Place</a></li>
-          <li><a href="" class="hover:text-gray-400">Explore</a></li>
+          <li><a href="" class="hover:text-gray-400">Pull Request</a></li>
+          <li><a href="" class="hover:text-gray-400">Pull Request</a></li>
+          <li><a href="" class="hover:text-gray-400">Pull Request</a></li>
         </ul>
       </div>
 
@@ -391,272 +383,29 @@
       <li class="font-semibold">
         <a
           href="#"
-          class="
-            flex
-            items-center
-            border-b-2 border-transparent
-            hover:border-gray-200
-            transition
-            ease-in-out
-            duration-150
-            px-4
-            pb-3
-          "
+          class="flex items-center border-b-2 border-transparent hover:border-gray-400 transition ease-in-out duration-150 px-4 pb-3"
         >
           <svg
-            class="
-              octicon octicon-issue-opened
-              UnderlineNav-octicon
-              d-none d-sm-inline
-            "
-            viewBox="0 0 16 16"
-            version="1.1"
-            width="16"
-            height="16"
-            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            class="w-5"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
           >
-            <path d="M8 9.5a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"></path>
             <path
-              fill-rule="evenodd"
-              d="M8 0a8 8 0 100 16A8 8 0 008 0zM1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0z"
-            ></path>
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"
+            />
           </svg>
           <span class="ml-2">Issues</span>
           <div class="text-xs rounded bg-gray-200 px-2 ml-1">20</div>
         </a>
       </li>
-      <!-- list issues item end -->
-      <!-- list pull request item -->
-      <li class="font-semibold">
-        <a
-          href="#"
-          class="
-            flex
-            items-center
-            border-b-2 border-transparent
-            hover:border-gray-200
-            transition
-            ease-in-out
-            duration-150
-            px-4
-            pb-3
-          "
-        >
-          <svg
-            class="
-              octicon octicon-git-pull-request
-              UnderlineNav-octicon
-              d-none d-sm-inline
-            "
-            viewBox="0 0 16 16"
-            version="1.1"
-            width="16"
-            height="16"
-            aria-hidden="true"
-          >
-            <path
-              fill-rule="evenodd"
-              d="M7.177 3.073L9.573.677A.25.25 0 0110 .854v4.792a.25.25 0 01-.427.177L7.177 3.427a.25.25 0 010-.354zM3.75 2.5a.75.75 0 100 1.5.75.75 0 000-1.5zm-2.25.75a2.25 2.25 0 113 2.122v5.256a2.251 2.251 0 11-1.5 0V5.372A2.25 2.25 0 011.5 3.25zM11 2.5h-1V4h1a1 1 0 011 1v5.628a2.251 2.251 0 101.5 0V5A2.5 2.5 0 0011 2.5zm1 10.25a.75.75 0 111.5 0 .75.75 0 01-1.5 0zM3.75 12a.75.75 0 100 1.5.75.75 0 000-1.5z"
-            ></path>
-          </svg>
-          <span class="ml-2">Issues</span>
-          <div class="text-xs rounded bg-gray-200 px-2 ml-1">20</div>
-        </a>
-      </li>
-      <!-- list pull request item end -->
+           <!-- list issues item end -->
     </ul>
-    <!-- end repo nav .... -->
-    <div class="container mx-auto my-8 px-4 flex">
-      <div class="file-explorer-container w-3/4 mr-8">
-        <div class="branch-navigation flex items-center justify-between">
-          <div class="flex items-center space-x-3">
-            <button
-              class="
-                rounded-md
-                border border-gray-300
-                px-4
-                py-1
-                flex
-                items-center
-                space-x-2
-                bg-gray-50
-                hover:bg-gray-100
-              "
-            >
-              <svg
-                aria-hidden="true"
-                viewBox="0 0 16 16"
-                version="1.1"
-                data-view-component="true"
-                height="16"
-                width="16"
-                class="octicon octicon-git-branch text-gray"
-              >
-                <path
-                  fill-rule="evenodd"
-                  d="M11.75 2.5a.75.75 0 100 1.5.75.75 0 000-1.5zm-2.25.75a2.25 2.25 0 113 2.122V6A2.5 2.5 0 0110 8.5H6a1 1 0 00-1 1v1.128a2.251 2.251 0 11-1.5 0V5.372a2.25 2.25 0 111.5 0v1.836A2.492 2.492 0 016 7h4a1 1 0 001-1v-.628A2.25 2.25 0 019.5 3.25zM4.25 12a.75.75 0 100 1.5.75.75 0 000-1.5zM3.5 3.25a.75.75 0 111.5 0 .75.75 0 01-1.5 0z"
-                ></path>
-              </svg>
-              <div class="flex font-semibold">Master</div>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                class="w-3 ml-1"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M19 9l-7 7-7-7"
-                />
-              </svg>
-            </button>
-             <!-- branch  link -->
-            <a href="#" class="flex items-center space-x-1 px-3 py-1 group">
-              <svg
-                class=" fill-current group-hover:text-blue-600"
-                aria-hidden="true"
-                viewBox="0 0 16 16"
-                version="1.1"
-                data-view-component="true"
-                height="16"
-                width="16"
-                
-              >
-                <path
-                  fill-rule="evenodd"
-                  d="M11.75 2.5a.75.75 0 100 1.5.75.75 0 000-1.5zm-2.25.75a2.25 2.25 0 113 2.122V6A2.5 2.5 0 0110 8.5H6a1 1 0 00-1 1v1.128a2.251 2.251 0 11-1.5 0V5.372a2.25 2.25 0 111.5 0v1.836A2.492 2.492 0 016 7h4a1 1 0 001-1v-.628A2.25 2.25 0 019.5 3.25zM4.25 12a.75.75 0 100 1.5.75.75 0 000-1.5zM3.5 3.25a.75.75 0 111.5 0 .75.75 0 01-1.5 0z"
-                ></path>
-              </svg>
-              <span class="group-hover:text-blue-600">
-                <span class="font-semibold">25</span>
-                <span class="text-gray-500 group-hover:text-blue-600">branches</span>
-              </span>
-            </a>
-             <!-- branch  link -->
-             <!-- span  link  start-->
-
-            <a href="" class="flex items-center space-x-1 px-3 py-1 group">
-              <svg
-                aria-hidden="true"
-                viewBox="0 0 16 16"
-                version="1.1"
-                data-view-component="true"
-                height="16"
-                width="16"
-                class=" fill-current group-hover:text-blue-600"
-              >
-                <path
-                  fill-rule="evenodd"
-                  d="M2.5 7.775V2.75a.25.25 0 01.25-.25h5.025a.25.25 0 01.177.073l6.25 6.25a.25.25 0 010 .354l-5.025 5.025a.25.25 0 01-.354 0l-6.25-6.25a.25.25 0 01-.073-.177zm-1.5 0V2.75C1 1.784 1.784 1 2.75 1h5.025c.464 0 .91.184 1.238.513l6.25 6.25a1.75 1.75 0 010 2.474l-5.026 5.026a1.75 1.75 0 01-2.474 0l-6.25-6.25A1.75 1.75 0 011 7.775zM6 5a1 1 0 100 2 1 1 0 000-2z"
-                ></path>
-              </svg>
-              <span class="group-hover:text-blue-600">
-                <span class="font-semibold">45</span>
-                <span class="text-gray-500 group-hover:text-blue-600">tags</span> 
-                </span>
-            </a>
-            <!-- span link end -->
-          </div>
-          <!-- branch navigation right side -->
-          <div class="flex items-center space-x-3">
-            <button
-              class="
-                flex
-                items-center
-                font-semibold
-                border
-                rounded-md
-                px-4
-                py-1
-                bg-gray-50
-                hover:bg-gray-100
-              "
-            >
-              Go to file
-            </button>
-            <button
-              class="
-                flex
-                items-center
-                font-semibold
-                border
-                rounded-md
-                px-4
-                py-1
-                bg-gray-50
-                hover:bg-gray-100
-              "
-            >
-              Add file
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                class="w-3 ml-1"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M19 9l-7 7-7-7"
-                />
-              </svg>
-            </button>
-            <button
-              class="
-                flex
-                items-center
-                font-semibold
-                border
-                rounded-md
-                px-4
-                py-1
-                bg-green-1
-                text-white
-                hover:bg-green-2
-              "
-            >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                class="w-4 mr-1"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"
-                />
-              </svg>
-              Code
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                class="w-3 ml-1"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M19 9l-7 7-7-7"
-                />
-              </svg>
-            </button>
-          </div>
-        </div>
-        <!-- branch navigation -->
-      </div>
-      <!--end file-exploerer-container  -->
-      <div class="sidebar w-1/4">lorem</div>
-    </div>
+    <!-- unordered list for the .... -->
   </div>
 </template>
 
