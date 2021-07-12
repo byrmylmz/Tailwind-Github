@@ -869,17 +869,59 @@
           <!-- Contributors -->
             <div class="releases border-t border-gray-00 mt-6 pt-6">
                 <h4 class="text-base font-semibold flex items-center">
-                  <span>Used by</span>
-                  <div class="text-xs rounded-lg bg-gray-200 px-2 ml-1 ">59</div>
+                  <span>Constributors</span>
+                  <div class="text-xs rounded-lg bg-gray-200 px-2 ml-1 ">183</div>
                 </h4>
+                <div class="mt-4  ">
+                    <a href="#" class="flex flex-wrap items-center ">
+                    <img src="https://avatars.githubusercontent.com/u/68708205?s=60&amp;v=4" alt="avatar" class="w-9 border-2 border-white rounded-full">
+                    <img src="https://avatars.githubusercontent.com/u/68708205?s=60&amp;v=4" alt="avatar" class="w-9 border-2 border-white rounded-full">
+                    <img src="https://avatars.githubusercontent.com/u/68708205?s=60&amp;v=4" alt="avatar" class="w-9 border-2 border-white rounded-full">
+                    <img src="https://avatars.githubusercontent.com/u/68708205?s=60&amp;v=4" alt="avatar" class="w-9 border-2 border-white rounded-full">
+                    <img src="https://avatars.githubusercontent.com/u/68708205?s=60&amp;v=4" alt="avatar" class="w-9 border-2 border-white rounded-full">
+                    <img src="https://avatars.githubusercontent.com/u/68708205?s=60&amp;v=4" alt="avatar" class="w-9 border-2 border-white rounded-full">
+                    <img src="https://avatars.githubusercontent.com/u/68708205?s=60&amp;v=4" alt="avatar" class="w-9 border-2 border-white rounded-full">
+                    <img src="https://avatars.githubusercontent.com/u/68708205?s=60&amp;v=4" alt="avatar" class="w-9 border-2 border-white rounded-full">
+                    <img src="https://avatars.githubusercontent.com/u/68708205?s=60&amp;v=4" alt="avatar" class="w-9 border-2 border-white rounded-full">
+                    <img src="https://avatars.githubusercontent.com/u/68708205?s=60&amp;v=4" alt="avatar" class="w-9 border-2 border-white rounded-full">
+                    <img src="https://avatars.githubusercontent.com/u/68708205?s=60&amp;v=4" alt="avatar" class="w-9 border-2 border-white rounded-full">
+                    <img src="https://avatars.githubusercontent.com/u/68708205?s=60&amp;v=4" alt="avatar" class="w-9 border-2 border-white rounded-full">
+                    <img src="https://avatars.githubusercontent.com/u/68708205?s=60&amp;v=4" alt="avatar" class="w-9 border-2 border-white rounded-full">
+                    <img src="https://avatars.githubusercontent.com/u/68708205?s=60&amp;v=4" alt="avatar" class="w-9 border-2 border-white rounded-full">
+                    <img src="https://avatars.githubusercontent.com/u/68708205?s=60&amp;v=4" alt="avatar" class="w-9 border-2 border-white rounded-full">
+                  </a>
+                  <a href="#" class="block text-xs text-blue-500 hover:underline mt-3 font-semibold">+104 Contributors</a>
+                </div>
             </div>
           <!-- Contributors -->
           <!-- Languages -->
             <div class="releases border-t border-gray-00 mt-6 pt-6">
                 <h4 class="text-base font-semibold flex items-center">
                   <span>Languages</span>
-                  <div class="text-xs rounded-lg bg-gray-200 px-2 ml-1 ">59</div>
+                  <!-- <div class="text-xs rounded-lg bg-gray-200 px-2 ml-1 ">59</div> -->
                 </h4>
+                <div class="mt-4 flex">
+                  <div class="w-5/12 h-2 rounded-md rounded-r-none bg-yellow-400"></div>
+                  <div class="w-2/12 h-2 rounded-md rounded-r-none rounded-l-none bg-red-400"></div>
+                  <div class="w-1/12 h-2 rounded-md rounded-r-none rounded-l-none bg-green-400"></div>
+                  <div class="w-4/12 h-2 rounded-md rounded-l-none bg-blue-400"></div>
+                </div>
+                <div class=" mt-1 items-center inline-block ">
+                  <div class="rounded-full bg-yellow-400 h-2 w-2  inline-block"></div>
+                  <a href="#" class="inline-block font-semibold ml-1 text-sm  ">Javascript %50</a>
+                </div>
+                <div class=" mt-1 items-center inline-block ml-2">
+                  <div class="rounded-full bg-red-400 h-2 w-2  inline-block"></div>
+                  <a href="#" class="inline-block font-semibold ml-1 text-sm ">PHP %20</a>
+                </div>
+                <div class=" mt-1 items-center inline-block ml-2">
+                  <div class="rounded-full bg-green-400 h-2 w-2  inline-block"></div>
+                  <a href="#" class="inline-block font-semibold ml-1 text-sm ">HTML %20</a>
+                </div>
+                <div class=" mt-1 items-center">
+                  <div class="rounded-full bg-blue-400 h-2 w-2  inline-block"></div>
+                  <a href="#" class="inline-block font-semibold ml-1 text-sm ">Other %20</a>
+                </div>
             </div>
           <!-- Languages -->
 
