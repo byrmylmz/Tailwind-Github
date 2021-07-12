@@ -783,24 +783,124 @@
       </div>
 
       <div class="sidebar w-1/4">
-       right side
+       <div class="about">
+         <h4 class="text-base font-semibold">About</h4>
+         <p class="text-base mt-4">A utility-first CSS framework for rapid UI development.</p>
+         <!-- tailwindcss.com -->
+         <div class="flex items-center space-x-2 mt-4">
+            <svg aria-hidden="true" viewBox="0 0 16 16" version="1.1" data-view-component="true" height="16" width="16" class="octicon octicon-link flex-shrink-0 mr-2">
+                <path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path>
+            </svg>
+           <a href="#" class="text-blue-600 hover:underline font-semibold">tailwindcss.com/</a>
+         </div>
+         <!-- tailwindcss.com -->
+         <!-- tags -->
+         <div class="tags tex-sm font-semibold flex items-center flex-wrap mt-2">
+           <a href="#" class="bg-blue-100 hover:bg-blue-200 rounded-full px-2 py-1 mt-2 mr-2 text-blue-600 text-xs">tailwind</a>
+           <a href="#" class="bg-blue-100 hover:bg-blue-200 rounded-full px-2 py-1 mt-2 mr-2 text-blue-600 text-xs">tailwind</a>
+           <a href="#" class="bg-blue-100 hover:bg-blue-200 rounded-full px-2 py-1 mt-2 mr-2 text-blue-600 text-xs">tailwind</a>
+           <a href="#" class="bg-blue-100 hover:bg-blue-200 rounded-full px-2 py-1 mt-2 mr-2 text-blue-600 text-xs">tailwind</a>
+           <a href="#" class="bg-blue-100 hover:bg-blue-200 rounded-full px-2 py-1 mt-2 mr-2 text-blue-600 text-xs">tailwind</a>
+           <a href="#" class="bg-blue-100 hover:bg-blue-200 rounded-full px-2 py-1 mt-2 mr-2 text-blue-600 text-xs">tailwind</a>
+         </div>
+         <!-- tags -->
+         <!-- readme MIT licence -->
+          <a href="#" class="flex items-center space-x-2 mt-4 group">
+            <svg aria-hidden="true" viewBox="0 0 16 16" version="1.1"  class=" w-4 fill-current group-hover:text-blue-600">
+                <path fill-rule="evenodd" d="M0 1.75A.75.75 0 01.75 1h4.253c1.227 0 2.317.59 3 1.501A3.744 3.744 0 0111.006 1h4.245a.75.75 0 01.75.75v10.5a.75.75 0 01-.75.75h-4.507a2.25 2.25 0 00-1.591.659l-.622.621a.75.75 0 01-1.06 0l-.622-.621A2.25 2.25 0 005.258 13H.75a.75.75 0 01-.75-.75V1.75zm8.755 3a2.25 2.25 0 012.25-2.25H14.5v9h-3.757c-.71 0-1.4.201-1.992.572l.004-7.322zm-1.504 7.324l.004-5.073-.002-2.253A2.25 2.25 0 005.003 2.5H1.5v9h3.757a3.75 3.75 0 011.994.574z"></path>
+            </svg>
+            <span class="text-gray-600 group-hover:text-blue-600">Readme</span>
+          </a>
+          <a href="#" class="flex items-center space-x-2 mt-4 group">
+             <svg aria-hidden="true" viewBox="0 0 16 16" version="1.1"  class=" w-4 fill-current group-hover:text-blue-600">
+                <path fill-rule="evenodd" d="M8.75.75a.75.75 0 00-1.5 0V2h-.984c-.305 0-.604.08-.869.23l-1.288.737A.25.25 0 013.984 3H1.75a.75.75 0 000 1.5h.428L.066 9.192a.75.75 0 00.154.838l.53-.53-.53.53v.001l.002.002.002.002.006.006.016.015.045.04a3.514 3.514 0 00.686.45A4.492 4.492 0 003 11c.88 0 1.556-.22 2.023-.454a3.515 3.515 0 00.686-.45l.045-.04.016-.015.006-.006.002-.002.001-.002L5.25 9.5l.53.53a.75.75 0 00.154-.838L3.822 4.5h.162c.305 0 .604-.08.869-.23l1.289-.737a.25.25 0 01.124-.033h.984V13h-2.5a.75.75 0 000 1.5h6.5a.75.75 0 000-1.5h-2.5V3.5h.984a.25.25 0 01.124.033l1.29.736c.264.152.563.231.868.231h.162l-2.112 4.692a.75.75 0 00.154.838l.53-.53-.53.53v.001l.002.002.002.002.006.006.016.015.045.04a3.517 3.517 0 00.686.45A4.492 4.492 0 0013 11c.88 0 1.556-.22 2.023-.454a3.512 3.512 0 00.686-.45l.045-.04.01-.01.006-.005.006-.006.002-.002.001-.002-.529-.531.53.53a.75.75 0 00.154-.838L13.823 4.5h.427a.75.75 0 000-1.5h-2.234a.25.25 0 01-.124-.033l-1.29-.736A1.75 1.75 0 009.735 2H8.75V.75zM1.695 9.227c.285.135.718.273 1.305.273s1.02-.138 1.305-.273L3 6.327l-1.305 2.9zm10 0c.285.135.718.273 1.305.273s1.02-.138 1.305-.273L13 6.327l-1.305 2.9z"></path>
+            </svg>
+            <span class="text-gray-600 group-hover:text-blue-600">MIT Licence </span>
+          </a>
+       </div>
+          <!-- releases -->
+            <div class="releases border-t border-gray-00 mt-6 pt-6">
+                <h4 class="text-base font-semibold flex items-center">
+                  <span>Releases</span>
+                  <div class="text-xs rounded-lg bg-gray-200 px-2 ml-1 ">59</div>
+                </h4>
+                <a href="#" class="items-start flex mt-4 group">
+                    <svg aria-hidden="true" viewBox="0 0 16 16" version="1.1" data-view-component="true " class="w-4 fill-current text-green-500 group-hover:text-blue-500 mt-1">
+                        <path fill-rule="evenodd" d="M2.5 7.775V2.75a.25.25 0 01.25-.25h5.025a.25.25 0 01.177.073l6.25 6.25a.25.25 0 010 .354l-5.025 5.025a.25.25 0 01-.354 0l-6.25-6.25a.25.25 0 01-.073-.177zm-1.5 0V2.75C1 1.784 1.784 1 2.75 1h5.025c.464 0 .91.184 1.238.513l6.25 6.25a1.75 1.75 0 010 2.474l-5.026 5.026a1.75 1.75 0 01-2.474 0l-6.25-6.25A1.75 1.75 0 011 7.775zM6 5a1 1 0 100 2 1 1 0 000-2z"></path>
+                    </svg>
+                  <span class="ml-2">
+                    <span class="font-semibold group-hover:text-blue-600">V1.5.6</span>
+                      <span class="ml-1 text-xs border border-green-500 text-green-600 rounded-full font-semibold inline-block px-2">Latest</span>
+                      <span class="block text-xs group-hover:text-blue-600">6 days ago</span>
+                  </span>
+                </a>
+                <div class="mt-3">
+                  <a href="#" class="text-xs text-blue-600 hover:underline">+ 157 releases</a>
+                </div>
+            </div>
+          <!-- releases -->
+          <!-- packages -->
+            <div class="releases border-t border-gray-00 mt-6 pt-6">
+                <h4 class="text-base font-semibold flex items-center">
+                  <span>Packages</span>
+                  <!-- <div class="text-xs rounded-lg bg-gray-200 px-2 ml-1 ">59</div> -->
+                </h4>
+                <div class="mt-2 text-xm text-gray-600">No packages published</div>
+            </div>
+          <!-- packages -->
+          <!-- Used by -->
+            <div class="releases border-t border-gray-00 mt-6 pt-6">
+                <h4 class="text-base font-semibold flex items-center">
+                  <span>Used by</span>
+                  <div class="text-xs rounded-lg bg-gray-200 px-2 ml-1 ">243k</div>
+                </h4>
+                <div class="mt-4 flex items-center">
+                  <a href="#" class="flex items-center -space-x-3">
+                    <img src="https://avatars.githubusercontent.com/u/68708205?s=60&amp;v=4" alt="avatar" class="w-9 border-2 border-white rounded-full">
+                    <img src="https://avatars.githubusercontent.com/u/68708205?s=60&amp;v=4" alt="avatar" class="w-9 border-2 border-white rounded-full">
+                    <img src="https://avatars.githubusercontent.com/u/68708205?s=60&amp;v=4" alt="avatar" class="w-9 border-2 border-white rounded-full">
+                    <img src="https://avatars.githubusercontent.com/u/68708205?s=60&amp;v=4" alt="avatar" class="w-9 border-2 border-white rounded-full">
+                    <img src="https://avatars.githubusercontent.com/u/68708205?s=60&amp;v=4" alt="avatar" class="w-9 border-2 border-white rounded-full">
+                  </a>
+                  <a href="#" class="text-blue-700 hover:underline text-xs font-semibold ml-2">+ 243,253</a>
+                </div>
+            </div>
+          <!-- Used by -->
+          <!-- Contributors -->
+            <div class="releases border-t border-gray-00 mt-6 pt-6">
+                <h4 class="text-base font-semibold flex items-center">
+                  <span>Used by</span>
+                  <div class="text-xs rounded-lg bg-gray-200 px-2 ml-1 ">59</div>
+                </h4>
+            </div>
+          <!-- Contributors -->
+          <!-- Languages -->
+            <div class="releases border-t border-gray-00 mt-6 pt-6">
+                <h4 class="text-base font-semibold flex items-center">
+                  <span>Languages</span>
+                  <div class="text-xs rounded-lg bg-gray-200 px-2 ml-1 ">59</div>
+                </h4>
+            </div>
+          <!-- Languages -->
+
       </div>
     </div>
+     <!-- readme MIT licence -->
     <!-- footer -->
      <footer class="container mx-auto border-t text-sm border-gray-400 py-10 flex items-center justify-between ">
        <!-- footer left list -->
        <ul class="flex items-center space-x-12">
          <li>2020 Github, Inc</li>
-         <li><a href="#" class="text-blue-600 hover:underline"> Terms</a></li>
-         <li><a href="#" class="text-blue-600 hover:underline"> Terms</a></li>
-         <li><a href="#" class="text-blue-600 hover:underline"> Terms</a></li>
-         <li><a href="#" class="text-blue-600 hover:underline"> Terms</a></li>
-         <li><a href="#" class="text-blue-600 hover:underline"> Terms</a></li>
-         <li><a href="#" class="text-blue-600 hover:underline"> Terms</a></li>
+         <li><a href="#" class="text-blue-600 hover:underline">Terms</a></li>
+         <li><a href="#" class="text-blue-600 hover:underline">Terms</a></li>
+         <li><a href="#" class="text-blue-600 hover:underline">Terms</a></li>
+         <li><a href="#" class="text-blue-600 hover:underline">Terms</a></li>
+         <li><a href="#" class="text-blue-600 hover:underline">Terms</a></li>
+         <li><a href="#" class="text-blue-600 hover:underline">Terms</a></li>
        </ul>
        <!-- footer left list -->
        <!-- footer github logo -->
-       <div class="space-x-3 text-gray-400 fill-current hover:text-gray-600">
+       <div class="space-x-3 text-gray-400 fill-current hover:text-gray-00">
         <svg aria-hidden="true" viewBox="0 0 16 16" version="1.1" data-view-component="true" height="24" width="24" class="octicon octicon-mark-github">
             <path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path>
         </svg>
@@ -808,13 +908,13 @@
        <!-- footer github logo -->
        <!-- footer right list -->
        <ul class="flex items-center space-x-12">
-         <li><a href="#" class="text-blue-600 hover:underline"> Contact Github</a></li>
-         <li><a href="#" class="text-blue-600 hover:underline"> Terms</a></li>
-         <li><a href="#" class="text-blue-600 hover:underline"> Terms</a></li>
-         <li><a href="#" class="text-blue-600 hover:underline"> Terms</a></li>
-         <li><a href="#" class="text-blue-600 hover:underline"> Terms</a></li>
-         <li><a href="#" class="text-blue-600 hover:underline"> Terms</a></li>
-         <li><a href="#" class="text-blue-600 hover:underline"> Terms</a></li>
+         <li><a href="#" class="text-blue-600 hover:underline">Contact Github</a></li>
+         <li><a href="#" class="text-blue-600 hover:underline">Terms</a></li>
+         <li><a href="#" class="text-blue-600 hover:underline">Terms</a></li>
+         <li><a href="#" class="text-blue-600 hover:underline">Terms</a></li>
+         <li><a href="#" class="text-blue-600 hover:underline">Terms</a></li>
+         <li><a href="#" class="text-blue-600 hover:underline">Terms</a></li>
+         <li><a href="#" class="text-blue-600 hover:underline">Terms</a></li>
        </ul>
        <!-- footer right list -->
      </footer>
