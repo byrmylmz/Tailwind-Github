@@ -466,7 +466,7 @@
       <!-- list pull request item end -->
     </ul>
     <!-- end repo nav .... -->
-    <div class="container mx-auto my-8 px-4 flex">
+    <div class="container mx-auto my-8 px-4 flex ">
       <div class="file-explorer-container w-3/4 mr-8">
         <div class="branch-navigation flex items-center justify-between">
           <div class="flex items-center space-x-3">
@@ -653,11 +653,173 @@
           </div>
         </div>
         <!-- branch navigation -->
+
+           <!-- 
+             * commits container 
+             -->
+        <div class="commits-container bg-gray-100 rounded-md rounded-b-none border border-gray-300 flex items center justify-between px-4 py-4 mt-5">
+          <div class="flex items-center space-x-2">
+            <img  class="rounded-full w-6" src="https://avatars.githubusercontent.com/u/68708205?s=48&v=4" alt="">
+            <a href="#" class="font-semibold hover:underline">byrmylmz</a>
+            <a href="#" class="hover:underline hover:text-blue-600">Companies Crud Api</a>
+          </div>
+          <div class="flex items-center">
+            <a href="#" class="font-mono text-gray-600  hover:text-blue-500 ml-2 hover:underline text-xs">4k44ki</a>
+            <a href="#" class="hover:underline  text-gray-600 hover:text-blue-500 ml-2">3 Days ago</a>
+            <a href="#" class="flex items-center space-x-1 px-3 py-1 group">
+              <svg xmlns="http://www.w3.org/2000/svg" class="group-hover:text-blue-600 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+              </svg>
+              <span class="group-hover:text-blue-600">
+                <span class="font-semibold">25</span>
+                <span class="text-gray-500 group-hover:text-blue-600">commits</span>
+              </span>
+            </a>
+          </div>
+        </div><!-- commits container end -->
+
+        <!-- FILE EXPOLORER TABLE LINE START -->
+        <div class="file=explorer rounded-md rounded-t-none border border-gray-300 text-gray-700 border-t-0 divide-y divide-gray-200">
+          <!-- col 1 start -->
+          <div class="flex items-center justify-between px-4 py-2 hover:bg-gray-100">
+            <div class="flex items-center w-4/12">
+              <svg  viewBox="0 0 16 16"  class="w-5 fill-current text-blue-400 flex items-center ">
+                  <path fill-rule="evenodd" d="M1.75 1A1.75 1.75 0 000 2.75v10.5C0 14.216.784 15 1.75 15h12.5A1.75 1.75 0 0016 13.25v-8.5A1.75 1.75 0 0014.25 3h-6.5a.25.25 0 01-.2-.1l-.9-1.2c-.33-.44-.85-.7-1.4-.7h-3.5z"></path>
+              </svg>     
+             <a href="#" class="hover:text-blue-500 ml-2 hover:underline">one</a>
+            </div>
+            <div class="w-6/12 truncate">Update issues template</div>
+            <div class="w-2/12 text-right">11 days ago</div>
+          </div>
+          <!-- col 1 end -->
+          <!-- col 1 start -->
+          <div class="flex items-center justify-between px-4 py-2 hover:bg-gray-100">
+            <div class="flex items-center w-4/12">
+              <svg  viewBox="0 0 16 16"  class="w-5 fill-current text-blue-400 flex items-center ">
+                  <path fill-rule="evenodd" d="M1.75 1A1.75 1.75 0 000 2.75v10.5C0 14.216.784 15 1.75 15h12.5A1.75 1.75 0 0016 13.25v-8.5A1.75 1.75 0 0014.25 3h-6.5a.25.25 0 01-.2-.1l-.9-1.2c-.33-.44-.85-.7-1.4-.7h-3.5z"></path>
+              </svg>     
+             <a href="#" class="hover:text-blue-500 ml-2 hover:underline">one</a>
+            </div>
+            <div class="w-6/12 truncate">Update issues template</div>
+            <div class="w-2/12 text-right">11 days ago</div>
+          </div>
+          <!-- col 1 end -->
+            <!-- col 1 start -->
+            <div class="flex items-center justify-between px-4 py-2 hover:bg-gray-100">
+              <div class="flex items-center w-4/12">
+                <svg  viewBox="0 0 16 16"  class="w-5 fill-current text-blue-400 flex items-center ">
+                    <path fill-rule="evenodd" d="M1.75 1A1.75 1.75 0 000 2.75v10.5C0 14.216.784 15 1.75 15h12.5A1.75 1.75 0 0016 13.25v-8.5A1.75 1.75 0 0014.25 3h-6.5a.25.25 0 01-.2-.1l-.9-1.2c-.33-.44-.85-.7-1.4-.7h-3.5z"></path>
+                </svg>     
+              <a href="#" class="hover:text-blue-500 ml-2 hover:underline">one</a>
+              </div>
+              <div class="w-6/12 truncate">Update issues template</div>
+              <div class="w-2/12 text-right">11 days ago</div>
+            </div>
+            <!-- col 1 end -->
+            <!-- blank ıtem col  -->
+            <div class="flex items-center justify-between px-4 py-2 hover:bg-gray-100">
+              <div class="flex items-center w-4/12">
+                <svg aria-label="File" aria-hidden="true" viewBox="0 0 16 16" version="1.1" data-view-component="true" height="16" width="16" class="octicon octicon-file color-icon-tertiary">
+                    <path fill-rule="evenodd" d="M3.75 1.5a.25.25 0 00-.25.25v11.5c0 .138.112.25.25.25h8.5a.25.25 0 00.25-.25V6H9.75A1.75 1.75 0 018 4.25V1.5H3.75zm5.75.56v2.19c0 .138.112.25.25.25h2.19L9.5 2.06zM2 1.75C2 .784 2.784 0 3.75 0h5.086c.464 0 .909.184 1.237.513l3.414 3.414c.329.328.513.773.513 1.237v8.086A1.75 1.75 0 0112.25 15h-8.5A1.75 1.75 0 012 13.25V1.75z"></path>
+                </svg>    
+              <a href="#" class="hover:text-blue-500 ml-2 hover:underline">one</a>
+              </div>
+              <div class="w-6/12 truncate">Update issues template</div>
+              <div class="w-2/12 text-right">11 days ago</div>
+            </div>
+            <!-- blank ıtem col  -->
+            <!-- blank ıtem col  -->
+            <div class="flex items-center justify-between px-4 py-2 hover:bg-gray-100">
+              <div class="flex items-center w-4/12">
+                <svg aria-label="File" aria-hidden="true" viewBox="0 0 16 16" version="1.1" data-view-component="true" height="16" width="16" class="octicon octicon-file color-icon-tertiary">
+                    <path fill-rule="evenodd" d="M3.75 1.5a.25.25 0 00-.25.25v11.5c0 .138.112.25.25.25h8.5a.25.25 0 00.25-.25V6H9.75A1.75 1.75 0 018 4.25V1.5H3.75zm5.75.56v2.19c0 .138.112.25.25.25h2.19L9.5 2.06zM2 1.75C2 .784 2.784 0 3.75 0h5.086c.464 0 .909.184 1.237.513l3.414 3.414c.329.328.513.773.513 1.237v8.086A1.75 1.75 0 0112.25 15h-8.5A1.75 1.75 0 012 13.25V1.75z"></path>
+                </svg>    
+              <a href="#" class="hover:text-blue-500 ml-2 hover:underline">one</a>
+              </div>
+              <div class="w-6/12 truncate">Update issues template</div>
+              <div class="w-2/12 text-right">11 days ago</div>
+            </div>
+            <!-- blank ıtem col  -->
+            <!-- blank ıtem col  -->
+            <div class="flex items-center justify-between px-4 py-2 hover:bg-gray-100">
+              <div class="flex items-center w-4/12">
+                <svg aria-label="File" aria-hidden="true" viewBox="0 0 16 16" version="1.1" data-view-component="true" height="16" width="16" class="octicon octicon-file color-icon-tertiary">
+                    <path fill-rule="evenodd" d="M3.75 1.5a.25.25 0 00-.25.25v11.5c0 .138.112.25.25.25h8.5a.25.25 0 00.25-.25V6H9.75A1.75 1.75 0 018 4.25V1.5H3.75zm5.75.56v2.19c0 .138.112.25.25.25h2.19L9.5 2.06zM2 1.75C2 .784 2.784 0 3.75 0h5.086c.464 0 .909.184 1.237.513l3.414 3.414c.329.328.513.773.513 1.237v8.086A1.75 1.75 0 0112.25 15h-8.5A1.75 1.75 0 012 13.25V1.75z"></path>
+                </svg>    
+              <a href="#" class="hover:text-blue-500 ml-2 hover:underline">one</a>
+              </div>
+              <div class="w-6/12 truncate">Update issues template</div>
+              <div class="w-2/12 text-right">11 days ago</div>
+            </div>
+            <!-- blank ıtem col  -->
+            <!-- blank ıtem col  -->
+            <div class="flex items-center justify-between px-4 py-2 hover:bg-gray-100">
+              <div class="flex items-center w-4/12">
+                <svg aria-label="File" aria-hidden="true" viewBox="0 0 16 16" version="1.1" data-view-component="true" height="16" width="16" class="octicon octicon-file color-icon-tertiary">
+                    <path fill-rule="evenodd" d="M3.75 1.5a.25.25 0 00-.25.25v11.5c0 .138.112.25.25.25h8.5a.25.25 0 00.25-.25V6H9.75A1.75 1.75 0 018 4.25V1.5H3.75zm5.75.56v2.19c0 .138.112.25.25.25h2.19L9.5 2.06zM2 1.75C2 .784 2.784 0 3.75 0h5.086c.464 0 .909.184 1.237.513l3.414 3.414c.329.328.513.773.513 1.237v8.086A1.75 1.75 0 0112.25 15h-8.5A1.75 1.75 0 012 13.25V1.75z"></path>
+                </svg>    
+              <a href="#" class="hover:text-blue-500 ml-2 hover:underline">one</a>
+              </div>
+              <div class="w-6/12 truncate">Update issues template</div>
+              <div class="w-2/12 text-right">11 days ago</div>
+            </div>
+            <!-- blank ıtem col  -->
+        </div> <!--end file-exploerer-container  -->
+         <!-- readme layout title -->
+           <div class="flex items-center justify-between rounded-md border border-gray-200 mt-4 p-1 rounded-b-none">
+             <button class="rounded-md p-2 m-1 hover:bg-gray-100">
+               <svg aria-hidden="true" viewBox="0 0 16 16" version="1.1" data-view-component="true" class="w-4">
+                  <path fill-rule="evenodd" d="M2 4a1 1 0 100-2 1 1 0 000 2zm3.75-1.5a.75.75 0 000 1.5h8.5a.75.75 0 000-1.5h-8.5zm0 5a.75.75 0 000 1.5h8.5a.75.75 0 000-1.5h-8.5zm0 5a.75.75 0 000 1.5h8.5a.75.75 0 000-1.5h-8.5zM3 8a1 1 0 11-2 0 1 1 0 012 0zm-1 6a1 1 0 100-2 1 1 0 000 2z"></path>
+              </svg>
+             </button>
+             <a href=""></a>
+             <button class="rounded-md p-2 m-1 hover:bg-gray-100">
+              <svg aria-hidden="true" viewBox="0 0 16 16" version="1.1" data-view-component="true"  class="w-4">
+                  <path fill-rule="evenodd" d="M11.013 1.427a1.75 1.75 0 012.474 0l1.086 1.086a1.75 1.75 0 010 2.474l-8.61 8.61c-.21.21-.47.364-.756.445l-3.251.93a.75.75 0 01-.927-.928l.929-3.25a1.75 1.75 0 01.445-.758l8.61-8.61zm1.414 1.06a.25.25 0 00-.354 0L10.811 3.75l1.439 1.44 1.263-1.263a.25.25 0 000-.354l-1.086-1.086zM11.189 6.25L9.75 4.81l-6.286 6.287a.25.25 0 00-.064.108l-.558 1.953 1.953-.558a.249.249 0 00.108-.064l6.286-6.286z"></path>
+              </svg>
+             </button>
+           </div>
+          <!-- readme layout title --> 
       </div>
-      <!--end file-exploerer-container  -->
-      <div class="sidebar w-1/4">lorem</div>
+
+      <div class="sidebar w-1/4">
+       right side
+      </div>
     </div>
+    <!-- footer -->
+     <footer class="container mx-auto border-t text-sm border-gray-400 py-10 flex items-center justify-between ">
+       <!-- footer left list -->
+       <ul class="flex items-center space-x-12">
+         <li>2020 Github, Inc</li>
+         <li><a href="#" class="text-blue-600 hover:underline"> Terms</a></li>
+         <li><a href="#" class="text-blue-600 hover:underline"> Terms</a></li>
+         <li><a href="#" class="text-blue-600 hover:underline"> Terms</a></li>
+         <li><a href="#" class="text-blue-600 hover:underline"> Terms</a></li>
+         <li><a href="#" class="text-blue-600 hover:underline"> Terms</a></li>
+         <li><a href="#" class="text-blue-600 hover:underline"> Terms</a></li>
+       </ul>
+       <!-- footer left list -->
+       <!-- footer github logo -->
+       <div class="space-x-3 text-gray-400 fill-current hover:text-gray-600">
+        <svg aria-hidden="true" viewBox="0 0 16 16" version="1.1" data-view-component="true" height="24" width="24" class="octicon octicon-mark-github">
+            <path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path>
+        </svg>
+       </div>
+       <!-- footer github logo -->
+       <!-- footer right list -->
+       <ul class="flex items-center space-x-12">
+         <li><a href="#" class="text-blue-600 hover:underline"> Contact Github</a></li>
+         <li><a href="#" class="text-blue-600 hover:underline"> Terms</a></li>
+         <li><a href="#" class="text-blue-600 hover:underline"> Terms</a></li>
+         <li><a href="#" class="text-blue-600 hover:underline"> Terms</a></li>
+         <li><a href="#" class="text-blue-600 hover:underline"> Terms</a></li>
+         <li><a href="#" class="text-blue-600 hover:underline"> Terms</a></li>
+         <li><a href="#" class="text-blue-600 hover:underline"> Terms</a></li>
+       </ul>
+       <!-- footer right list -->
+     </footer>
   </div>
+  
 </template>
 
 <script>
