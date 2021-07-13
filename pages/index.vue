@@ -13,7 +13,8 @@
             ></path>
           </svg>
         </a>
-        <div class="relative">
+
+        <div class="hidden lg:flex relative">
           <input
             type="text"
             class="
@@ -42,7 +43,7 @@
             </div>
           </div>
         </div>
-        <ul class="flex items-center font-semibold space-x-4">
+        <ul class="hidden lg:flex items-center font-semibold space-x-4">
           <li><a href="" class="hover:text-gray-400">Pull Request</a></li>
           <li><a href="" class="hover:text-gray-400">Issues</a></li>
           <li><a href="" class="hover:text-gray-400">Market Place</a></li>
@@ -129,8 +130,8 @@
     </nav>
     <!-- NAVBAR END -->
     <!-- repo start from here. -->
-    <div class="repo-stats flex items-center justify-between px-8 py-4">
-      <div class="flex">
+    <div class="repo-stats block lg:flex items-center justify-center lg:justify-between px-8 py-4">
+      <div class="flex items-center justify-center ">
         <svg
           class="w-4 fill-current text-gray-700"
           viewBox="0 0 16 16"
@@ -141,18 +142,16 @@
             d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8zM5 12.25v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z"
           ></path>
         </svg>
-        <div class="flex items center text-xl ml-2">
-          <a href="#" class="text-blue-600 hover:underline">TailwindCss</a>
+        <div class="flex text-xl ml-2 ">
+          <a href="#" class="text-blue-600 hover:underline text-xl">tailwindCss</a>
           <span class="mx-2">/</span>
-          <a href="#" class="text-blue-600 hover:underline font-semibold"
-            >Bayram Yilmaz</a
-          >
+          <a href="#" class="text-blue-600 hover:underline font-semibold">bayram yilmaz</a>
         </div>
       </div>
       <!-- left button items layout. -->
-      <div class="flex space-x-3">
+      <div class="flex flex-col lg:flex-row space-x-3 items-center  mt-3 lg:mt-0 space-y-3 lg:space-y-0">
         <!-- watch button group flex -->
-        <div class="flex text-xs">
+        <div class="flex text-xs ">
           <!-- button in layout for watch -->
           <button
             class="
@@ -292,8 +291,8 @@
           </button>
           <!-- button in layout for watch end -->
         </div>
-        <!-- watch button group flex  end-->
-        <!-- watch button group flex -->
+        <!-- star button group flex  end-->
+        <!-- fork button group flex -->
         <div class="flex text-xs">
           <!-- button in layout for watch -->
           <button
@@ -405,9 +404,7 @@
         >
           <svg
             class="
-              octicon octicon-issue-opened
-              UnderlineNav-octicon
-              d-none d-sm-inline
+             
             "
             viewBox="0 0 16 16"
             version="1.1"
@@ -459,15 +456,15 @@
               d="M7.177 3.073L9.573.677A.25.25 0 0110 .854v4.792a.25.25 0 01-.427.177L7.177 3.427a.25.25 0 010-.354zM3.75 2.5a.75.75 0 100 1.5.75.75 0 000-1.5zm-2.25.75a2.25 2.25 0 113 2.122v5.256a2.251 2.251 0 11-1.5 0V5.372A2.25 2.25 0 011.5 3.25zM11 2.5h-1V4h1a1 1 0 011 1v5.628a2.251 2.251 0 101.5 0V5A2.5 2.5 0 0011 2.5zm1 10.25a.75.75 0 111.5 0 .75.75 0 01-1.5 0zM3.75 12a.75.75 0 100 1.5.75.75 0 000-1.5z"
             ></path>
           </svg>
-          <span class="ml-2">Issues</span>
+          <span class="ml-2">Pull Request</span>
           <div class="text-xs rounded bg-gray-200 px-2 ml-1">20</div>
         </a>
       </li>
       <!-- list pull request item end -->
     </ul>
     <!-- end repo nav .... -->
-    <div class="container mx-auto my-8 px-4 flex ">
-      <div class="file-explorer-container w-3/4 mr-8">
+    <div class="container mx-auto my-8 px-4 flex flex-col lg:flex-row">
+      <div class="file-explorer-container w-full lg:w-3/4 lg:mr-8">
         <div class="branch-navigation flex items-center justify-between">
           <div class="flex items-center space-x-3">
             <button
@@ -514,7 +511,8 @@
               </svg>
             </button>
              <!-- branch  link -->
-            <a href="#" class="flex items-center space-x-1 px-3 py-1 group">
+            
+            <a href="#" class="hidden lg:flex items-center space-x-1 px-3 py-1 group ">
               <svg
                 class=" fill-current group-hover:text-blue-600"
                 aria-hidden="true"
@@ -532,13 +530,13 @@
               </svg>
               <span class="group-hover:text-blue-600">
                 <span class="font-semibold">25</span>
-                <span class="text-gray-500 group-hover:text-blue-600">branches</span>
+                <span class="text-gray-500 group-hover:text-blue-600 ">branches</span>
               </span>
             </a>
              <!-- branch  link -->
              <!-- span  link  start-->
 
-            <a href="" class="flex items-center space-x-1 px-3 py-1 group">
+            <a href="" class="hidden lg:flex items-center space-x-1 px-3 py-1 group">
               <svg
                 aria-hidden="true"
                 viewBox="0 0 16 16"
@@ -561,7 +559,7 @@
             <!-- span link end -->
           </div>
           <!-- branch navigation right side -->
-          <div class="flex items-center space-x-3">
+          <div class="hidden lg:flex items-center space-x-3">
             <button
               class="
                 flex
@@ -661,25 +659,25 @@
           <div class="flex items-center space-x-2">
             <img  class="rounded-full w-6" src="https://avatars.githubusercontent.com/u/68708205?s=48&v=4" alt="">
             <a href="#" class="font-semibold hover:underline">byrmylmz</a>
-            <a href="#" class="hover:underline hover:text-blue-600">Companies Crud Api</a>
+            <a href="#" class="hover:underline hover:text-blue-600 hidden lg:block">Companies Crud Api</a>
           </div>
           <div class="flex items-center">
-            <a href="#" class="font-mono text-gray-600  hover:text-blue-500 ml-2 hover:underline text-xs">4k44ki</a>
+            <a href="#" class="font-mono text-gray-600  hover:text-blue-500 ml-2 hover:underline text-xs hidden lg:block">4k44ki</a>
             <a href="#" class="hover:underline  text-gray-600 hover:text-blue-500 ml-2">3 Days ago</a>
             <a href="#" class="flex items-center space-x-1 px-3 py-1 group">
               <svg xmlns="http://www.w3.org/2000/svg" class="group-hover:text-blue-600 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
               </svg>
-              <span class="group-hover:text-blue-600">
+              <span class="group-hover:text-blue-600 hidden lg:block">
                 <span class="font-semibold">25</span>
-                <span class="text-gray-500 group-hover:text-blue-600">commits</span>
+                <span class="text-gray-500 group-hover:text-blue-600 ">commits</span>
               </span>
             </a>
           </div>
         </div><!-- commits container end -->
 
         <!-- FILE EXPOLORER TABLE LINE START -->
-        <div class="file=explorer rounded-md rounded-t-none border border-gray-300 text-gray-700 border-t-0 divide-y divide-gray-200">
+        <div class="file-explorer rounded-md rounded-t-none border border-gray-300 text-gray-700 border-t-0 divide-y divide-gray-200">
           <!-- col 1 start -->
           <div class="flex items-center justify-between px-4 py-2 hover:bg-gray-100">
             <div class="flex items-center w-4/12">
@@ -688,8 +686,8 @@
               </svg>     
              <a href="#" class="hover:text-blue-500 ml-2 hover:underline">one</a>
             </div>
-            <div class="w-6/12 truncate">Update issues template</div>
-            <div class="w-2/12 text-right">11 days ago</div>
+            <div class="w-6/12 truncate hidden lg:block">Update issues template</div>
+            <div class="w-4/12 lg:w-2/12 text-right ">11 days ago</div>
           </div>
           <!-- col 1 end -->
           <!-- col 1 start -->
@@ -700,8 +698,8 @@
               </svg>     
              <a href="#" class="hover:text-blue-500 ml-2 hover:underline">one</a>
             </div>
-            <div class="w-6/12 truncate">Update issues template</div>
-            <div class="w-2/12 text-right">11 days ago</div>
+            <div class="w-6/12 truncate hidden lg:block">Update issues template</div>
+            <div class="w-4/12 lg:w-2/12 text-right">11 days ago</div>
           </div>
           <!-- col 1 end -->
             <!-- col 1 start -->
@@ -712,8 +710,8 @@
                 </svg>     
               <a href="#" class="hover:text-blue-500 ml-2 hover:underline">one</a>
               </div>
-              <div class="w-6/12 truncate">Update issues template</div>
-              <div class="w-2/12 text-right">11 days ago</div>
+              <div class="w-6/12 truncate hidden lg:block">Update issues template</div>
+              <div class="w-4/12 lg:w-2/12 text-right">11 days ago</div>
             </div>
             <!-- col 1 end -->
             <!-- blank ıtem col  -->
@@ -724,8 +722,8 @@
                 </svg>    
               <a href="#" class="hover:text-blue-500 ml-2 hover:underline">one</a>
               </div>
-              <div class="w-6/12 truncate">Update issues template</div>
-              <div class="w-2/12 text-right">11 days ago</div>
+              <div class="w-6/12 truncate hidden lg:block">Update issues template</div>
+              <div class="w-4/12 lg:w-2/12 text-right">11 days ago</div>
             </div>
             <!-- blank ıtem col  -->
             <!-- blank ıtem col  -->
@@ -736,8 +734,8 @@
                 </svg>    
               <a href="#" class="hover:text-blue-500 ml-2 hover:underline">one</a>
               </div>
-              <div class="w-6/12 truncate">Update issues template</div>
-              <div class="w-2/12 text-right">11 days ago</div>
+              <div class="w-6/12 truncate hidden lg:block">Update issues template</div>
+              <div class="w-4/12 lg:w-2/12 text-right">11 days ago</div>
             </div>
             <!-- blank ıtem col  -->
             <!-- blank ıtem col  -->
@@ -748,8 +746,8 @@
                 </svg>    
               <a href="#" class="hover:text-blue-500 ml-2 hover:underline">one</a>
               </div>
-              <div class="w-6/12 truncate">Update issues template</div>
-              <div class="w-2/12 text-right">11 days ago</div>
+              <div class="w-6/12 truncate hidden lg:block">Update issues template</div>
+              <div class="w-4/12 lg:w-2/12 text-right">11 days ago</div>
             </div>
             <!-- blank ıtem col  -->
             <!-- blank ıtem col  -->
@@ -760,8 +758,8 @@
                 </svg>    
               <a href="#" class="hover:text-blue-500 ml-2 hover:underline">one</a>
               </div>
-              <div class="w-6/12 truncate">Update issues template</div>
-              <div class="w-2/12 text-right">11 days ago</div>
+              <div class="w-6/12 truncate hidden lg:block">Update issues template</div>
+              <div class="w-4/12 lg:w-2/12 text-right">11 days ago</div>
             </div>
             <!-- blank ıtem col  -->
         </div> <!--end file-exploerer-container  -->
@@ -785,16 +783,16 @@
           <!-- readme layout title --> 
       </div>
 
-      <div class="sidebar w-1/4">
-       <div class="about">
-         <h4 class="text-base font-semibold">About</h4>
-         <p class="text-base mt-4">A utility-first CSS framework for rapid UI development.</p>
-         <!-- tailwindcss.com -->
-         <div class="flex items-center space-x-2 mt-4">
-            <svg aria-hidden="true" viewBox="0 0 16 16" version="1.1" data-view-component="true" height="16" width="16" class="octicon octicon-link flex-shrink-0 mr-2">
-                <path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path>
-            </svg>
-           <a href="#" class="text-blue-600 hover:underline font-semibold">tailwindcss.com/</a>
+      <div class="sidebar w-full lg:w-1/4">
+          <div class="about mt-4 lg:mt-0">
+            <h4 class="text-base font-semibold">About</h4>
+            <p class="text-base mt-4">A utility-first CSS framework for rapid UI development.</p>
+            <!-- tailwindcss.com -->
+            <div class="flex items-center space-x-2 mt-4">
+                <svg aria-hidden="true" viewBox="0 0 16 16" version="1.1" data-view-component="true" height="16" width="16" class="octicon octicon-link flex-shrink-0 mr-2">
+                    <path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path>
+                </svg>
+            <a href="#" class="text-blue-600 hover:underline font-semibold">tailwindcss.com/</a>
          </div>
          <!-- tailwindcss.com -->
          <!-- tags -->
@@ -932,34 +930,32 @@
     </div>
      <!-- readme MIT licence -->
     <!-- footer -->
-     <footer class="container mx-auto border-t text-sm border-gray-200 py-10 flex items-center justify-between ">
+     <footer class="container mx-auto border-t text-sm border-gray-200 py-10 flex flex-col lg:flex-row items-center justify-between ">
        <!-- footer left list -->
-       <ul class="flex items-center space-x-12">
+       <ul class="flex items-center space-x-5 text-xs lg:space-x-12 lg:text-sm">
          <li>2020 Github, Inc</li>
          <li><a href="#" class="text-blue-600 hover:underline">Terms</a></li>
-         <li><a href="#" class="text-blue-600 hover:underline">Terms</a></li>
-         <li><a href="#" class="text-blue-600 hover:underline">Terms</a></li>
-         <li><a href="#" class="text-blue-600 hover:underline">Terms</a></li>
-         <li><a href="#" class="text-blue-600 hover:underline">Terms</a></li>
-         <li><a href="#" class="text-blue-600 hover:underline">Terms</a></li>
+         <li><a href="#" class="text-blue-600 hover:underline">Privacy</a></li>
+         <li><a href="#" class="text-blue-600 hover:underline">Security</a></li>
+         <li><a href="#" class="text-blue-600 hover:underline">Status</a></li>
+         <li><a href="#" class="text-blue-600 hover:underline">Docs</a></li>
        </ul>
        <!-- footer left list -->
        <!-- footer github logo -->
-       <div class="space-x-3 text-gray-400 fill-current hover:text-gray-00">
+       <div class="space-x-3 text-gray-400 fill-current hover:text-gray-00 hidden lg:block">
         <svg aria-hidden="true" viewBox="0 0 16 16" version="1.1" data-view-component="true" height="24" width="24" class="octicon octicon-mark-github">
             <path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path>
         </svg>
        </div>
        <!-- footer github logo -->
        <!-- footer right list -->
-       <ul class="flex items-center space-x-12">
+       <ul class="flex items-center space-x-5 mt-4 text-xs lg:space-x-12 lg:mt-0 lg:text-sm">
          <li><a href="#" class="text-blue-600 hover:underline">Contact Github</a></li>
-         <li><a href="#" class="text-blue-600 hover:underline">Terms</a></li>
-         <li><a href="#" class="text-blue-600 hover:underline">Terms</a></li>
-         <li><a href="#" class="text-blue-600 hover:underline">Terms</a></li>
-         <li><a href="#" class="text-blue-600 hover:underline">Terms</a></li>
-         <li><a href="#" class="text-blue-600 hover:underline">Terms</a></li>
-         <li><a href="#" class="text-blue-600 hover:underline">Terms</a></li>
+         <li><a href="#" class="text-blue-600 hover:underline">Pricing</a></li>
+         <li><a href="#" class="text-blue-600 hover:underline">API</a></li>
+         <li><a href="#" class="text-blue-600 hover:underline">Training</a></li>
+         <li><a href="#" class="text-blue-600 hover:underline">Blog</a></li>
+         <li><a href="#" class="text-blue-600 hover:underline">About</a></li>
        </ul>
        <!-- footer right list -->
      </footer>
