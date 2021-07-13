@@ -1,4 +1,4 @@
-<template>
+<template >
   <div class="text-gray-900 text-sm">
     <!-- NAVBAR START -->
     <nav
@@ -779,6 +779,9 @@
               </svg>
              </button>
            </div>
+           <div class="flex items-center rounded-md border border-gray-200 rounded-t-none border-t-0 p-2">
+             <div v-html="readme" class="prose max-w-none px-4"></div>
+           </div>
           <!-- readme layout title --> 
       </div>
 
@@ -929,7 +932,7 @@
     </div>
      <!-- readme MIT licence -->
     <!-- footer -->
-     <footer class="container mx-auto border-t text-sm border-gray-400 py-10 flex items-center justify-between ">
+     <footer class="container mx-auto border-t text-sm border-gray-200 py-10 flex items-center justify-between ">
        <!-- footer left list -->
        <ul class="flex items-center space-x-12">
          <li>2020 Github, Inc</li>
@@ -965,5 +968,12 @@
 </template>
 
 <script>
-export default {};
+import readme from '../README.md'
+export default {
+  computed:{
+    readme(){
+      return readme
+    }
+  }
+};
 </script>
